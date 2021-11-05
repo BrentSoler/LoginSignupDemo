@@ -54,7 +54,7 @@ namespace LoginSignupDataBasePushTest
         {
             Console.WriteLine("true");
 
-            SqlConnection con = new SqlConnection("Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename = C:\\Users\\Brent\\Desktop\\Programs\\C#\\app_data\\Database1.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source = SQL5063.site4now.net; Initial Catalog=db_a7c0e1_users;User Id=db_a7c0e1_users_admin;Password=testing123");
             con.Open();
             string query = "INSERT INTO users values(@un,@pw,@gen)";
             string userNameCheck = "select * from users where userName ='" +userName.Trim()+ "'";
