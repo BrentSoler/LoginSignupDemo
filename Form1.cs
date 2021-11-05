@@ -16,5 +16,20 @@ namespace LoginSignupDataBasePushTest
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 frm2 = new Form2();
+            frm2.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 frm3 = new Form3();
+            this.Hide();
+            frm3.Show();
+        }
+
     }
 }

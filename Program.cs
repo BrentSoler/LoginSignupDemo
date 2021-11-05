@@ -8,10 +8,12 @@ namespace LoginSignupDataBasePushTest
 {
     static class Program
     {
+        public static string name = string.Empty;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
+
         static void Main()
         {
             Application.EnableVisualStyles();
